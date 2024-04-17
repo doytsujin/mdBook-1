@@ -1,5 +1,47 @@
 # CHANGELOG
 
+## [3.0.0](https://github.com/doytsujin/mdBook-1/compare/v2.1.0...v3.0.0) (2024-04-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* support mdbook version `0.4.35`
+
+### Features
+
+* **cli:** add "--force" flag to install command ([28f9d0f](https://github.com/doytsujin/mdBook-1/commit/28f9d0f02aea41c7278659fb22ba9db5bbf02b5d))
+* **cli:** add shell completion ([a9a79c6](https://github.com/doytsujin/mdBook-1/commit/a9a79c6f5441f1f62ae4658d7d1aaf9f79b3b9d3))
+* **cli:** detect differences in major version ([8956c61](https://github.com/doytsujin/mdBook-1/commit/8956c61a727b0408be202c9c7fc6c2f336166272))
+* darken struckout text ([5388763](https://github.com/doytsujin/mdBook-1/commit/5388763d108a72e1f0bd99656d7c88439fe9243a))
+* style `.warning` class ([#91](https://github.com/doytsujin/mdBook-1/issues/91)) ([ff9851d](https://github.com/doytsujin/mdBook-1/commit/ff9851d395934d8b5a084b7290d992b127169d51))
+* support mdbook version `0.4.35` ([55e8722](https://github.com/doytsujin/mdBook-1/commit/55e872267de2c63e91659c6be5eac1be4fc34540))
+* switch to clap v4 ([a1ddb9a](https://github.com/doytsujin/mdBook-1/commit/a1ddb9a11b6a5e83b75dbfeebe776ad7658ac9eb))
+
+
+### Bug Fixes
+
+* **admonish:** prefix `admonish-` to class names ([#76](https://github.com/doytsujin/mdBook-1/issues/76)) ([ba711b6](https://github.com/doytsujin/mdBook-1/commit/ba711b6ceb67f9d4e352cafc4a11d8a28d0b4980))
+* clap typecasting panic ([1193c91](https://github.com/doytsujin/mdBook-1/commit/1193c91b092da7f7496fb78431045733814789f0))
+* colours in `diff` codeblock ([#67](https://github.com/doytsujin/mdBook-1/issues/67)) ([a3b3f77](https://github.com/doytsujin/mdBook-1/commit/a3b3f7726c85cc815279f62fbd096d7249429866))
+
+
+### Build system & distribution
+
+* **cargo:** reduce build-time dependencies ([8e9ea6e](https://github.com/doytsujin/mdBook-1/commit/8e9ea6e2e9fd7b33fb62740eca4d7fb47aa3b38e))
+* **cargo:** update/unpin clap and mdbook ([b209ae7](https://github.com/doytsujin/mdBook-1/commit/b209ae7ffa85e5cc3dba1dbf5e73b2560ad592c7))
+* **deps:** pin clap to `4.4.3` ([d9708d9](https://github.com/doytsujin/mdBook-1/commit/d9708d98143a01d7ec42e2bc3e1adc7b786048a5))
+* **distribution:** remove `linux-musl`, `win-gnu`, and `win32-msvc` ([170419d](https://github.com/doytsujin/mdBook-1/commit/170419dd6059a164b46ef60b85d9fc153603eb53))
+* **example:** bump version ([14c7aac](https://github.com/doytsujin/mdBook-1/commit/14c7aac160d0db5bc4ea1a68f33c7125378e5b9e))
+* **example:** bump version ([3148609](https://github.com/doytsujin/mdBook-1/commit/3148609f10f9bfa82d41e6e77635cfd65f1b68e7))
+* **nix:** add shell completions ([#89](https://github.com/doytsujin/mdBook-1/issues/89)) ([097a72a](https://github.com/doytsujin/mdBook-1/commit/097a72ab17272063772f88441c902511f36bd188))
+* **nix:** disable mdbook for now ([e446eb3](https://github.com/doytsujin/mdBook-1/commit/e446eb35df1a10f91a7b0c1b9065e04cd732b492))
+* **nix:** drop macOS native dependencies ([#88](https://github.com/doytsujin/mdBook-1/issues/88)) ([547ed85](https://github.com/doytsujin/mdBook-1/commit/547ed8546b1870cb1e5747a2f2338aa33b3af522))
+* **nix:** fix darwin devShell ([#94](https://github.com/doytsujin/mdBook-1/issues/94)) ([218116e](https://github.com/doytsujin/mdBook-1/commit/218116e83688f2786af71eef5d11108f71950987))
+* **nix:** update nixpkgs in flake.lock ([ac73aa5](https://github.com/doytsujin/mdBook-1/commit/ac73aa5bfc274464da3cf2f8b9f4b86853bdc4a1))
+* **palette:** don't build `node_modules` ([051a7ff](https://github.com/doytsujin/mdBook-1/commit/051a7ff0a01f36e43750417f659328bc2f81e31d))
+* **website:** build on mdbook v0.4.35 ([97f7eb0](https://github.com/doytsujin/mdBook-1/commit/97f7eb04e0defaf79cee9ddd44870fa31bc01780))
+* **website:** use mdbook-admonish v1.13.0 ([33eb09c](https://github.com/doytsujin/mdBook-1/commit/33eb09c677719474e8726e6bf7278e1c9390cacc))
+
 ## [2.1.0](https://github.com/catppuccin/mdBook/compare/v2.0.1...v2.1.0) (2023-11-11)
 
 
